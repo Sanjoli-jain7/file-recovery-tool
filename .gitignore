@@ -1,9 +1,0 @@
-# Node
-frontend/node_modules/
-
-# Python
-backend/__pycache__/
-backend/recovered_files/
-
-# Env
-.env
