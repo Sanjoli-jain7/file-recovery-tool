@@ -69,6 +69,14 @@ npm install
 npm run dev
 ```
 
+### 🔹 6. Then start both servers again:
+
+```
+pnpm --filter @workspace/api-server run dev
+
+pnpm --filter @workspace/fs-simulator run dev
+```
+
 ---
 
 ## ⚠️ Note
