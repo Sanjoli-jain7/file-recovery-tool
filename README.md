@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # File System Recovery & Optimization Simulator
 
 An interactive, educational full-stack web application that demonstrates OS-level file system concepts including virtual file systems, disk block allocation, crash simulation, journaling-based recovery, defragmentation, and real-time performance monitoring — all in a dark terminal aesthetic.
@@ -119,39 +118,10 @@ File-System-Explorer/
 ├── pnpm-workspace.yaml              # Workspace config + platform overrides
 ├── package.json                     # Root scripts
 └── README.md
-=======
-# 🚀 File Recovery Tool
-
-A full-stack file recovery tool built with:
-
-* ⚙️ Flask (Backend)
-* 🎨 React + Tailwind (Frontend)
-* 🧠 PhotoRec (Recovery Engine)
-
----
-
-## 📦 Features
-
-* Recover deleted files
-* Simple UI to start recovery
-* Works locally on your machine
-* Supports multiple file types
-
----
-
-## ⚙️ Setup Instructions
-
-### 🔹 1. Clone the repository
-
-```
-git clone https://github.com/Saksham-2006/file-recovery-tool.git
-cd file-recovery-tool
->>>>>>> 03fbfc36de705870b8a798a58dbbf0a85ba800fd
 ```
 
 ---
 
-<<<<<<< HEAD
 ## Getting Started (Local — Windows)
 
 ### Prerequisites
@@ -326,67 +296,3 @@ Clears the entire bitmap, then replays all healthy files sequentially into conti
 | `Cannot find module lightningcss.win32-x64-msvc.node` | Same as above for lightningcss | Remove lightningcss + tailwindcss/oxide win32 overrides, reinstall |
 | Port 8080 already in use | Another process using the port | Change `PORT=8080` to `PORT=3001` in the dev script |
 | Vite crashes on start | Missing BASE_PATH/PORT env vars | vite.config.ts now uses defaults (5173, /) |
-=======
-### 🔹 2. Install PhotoRec (IMPORTANT)
-
-Download from:
-https://www.cgsecurity.org/
-
-Extract it and note the path to:
-
-```
-photorec_win.exe
-```
-
----
-
-### 🔹 3. Set environment variable
-
-#### Windows:
-
-```
-set PHOTOREC_PATH=C:\path\to\photorec_win.exe
-```
-
----
-
-### 🔹 4. Run Backend
-
-```
-cd backend
-pip install -r requirements.txt
-python app.py
-```
-
----
-
-### 🔹 5. Run Frontend
-
-```
-cd frontend
-npm install
-npm run dev
-```
-
-### 🔹 6. Then start both servers again:
-
-```
-pnpm --filter @workspace/api-server run dev
-
-pnpm --filter @workspace/fs-simulator run dev
-```
-
----
-
-## ⚠️ Note
-
-* This tool works locally only
-* Requires administrator privileges
-* Do not interrupt recovery process
-
----
-
-## 👨‍💻 Author
-
-Sanjoli Jain
->>>>>>> 03fbfc36de705870b8a798a58dbbf0a85ba800fd
